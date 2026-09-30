@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Ficha 3-Listas</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Mac
+            <ul>
+                 <li>Macbook</li>
+                 <li>MakBook Air</li>
+                 <li>MacBook Pro</li>
+            </ul>    
+    
+        </li>
+        <li>Ipad
+            <ul>
+                <li>Ipad</li>
+                <li>Ipad Pro</li>
+            </ul>
+        </li>
+        <li>Iphone
+            <ul>
+                <li>Iphone 16 Pro</li>
+                <li>Iphone 16</li>
+                <li>Iphone 15</li>
+                <li>Iphone 14</li>
+                <li>Iphone SE</li>
+            </ul>
+        </li>
+        <li>Watch
+            <ul>
+                <li>Apple Watch Ultra 2</li>
+                <li>Apple Watch Series 10</li>
+            </ul>    
+        </li>
+        <li>TV
+            <ul>
+                <li>Apple TV</li>
+                <li>Acessórios</li>
+                <ul>
+                    <li>Auscultadores</li>
+                    <li>Controlador de Jogos</li>
+                    <li>Cabo HDMI 4K</li>
+                </ul>
+            </ul>
+        </li>
+        <li>Suporte</li>
+    </ul>
+
+    <!--    Formulário  -->
+    <h2> Your Stuff, anywhere</h2>
+
+    <form action="mailto:tw@alunos.isec.pt" method="post">
+    <fieldset>
+        <legend>MyProfile</legend>
+        <input type="text" size="30" placeholder="First Name" name="c1" required autofocus
+        maxlength="20"> <br><br>
+         <input type="text" size="30" placeholder="Last Name" name="c2" required><br></br>
+         <input type="email" size="30" placeholder="Email" name="eml" required><br></br>
+         
+         <input type="password" size="30" placeholder="Password" name="pass" required pattern="[A-Za-z]{3}[0-9]{3}"><br><br>
+         <textarea name="text" placeholder="Enter text here ..." maxlength="150"></textarea> <br>
+    </fieldset>
+         <select name="s1">
+            <option value="1">Base Plan</option>
+            <option value="2">Intermediate Plan</option>
+            <option value="3">Premium Plan</option>
+         </select>
+
+         <input type="checkbox" required> I Agree to Dropbox terms <br/><br/>
+         <input type="submit" value="sign up"   />
+    </form>
+</body>
+</html>
